@@ -130,9 +130,10 @@ body > section,
 }
 
 #preloader > img {
-  left: 47%;
+  left: 40%;
+  right: 40%;
   position: absolute;
-  top: 48%;
+  top: 25%;
 }
 
 

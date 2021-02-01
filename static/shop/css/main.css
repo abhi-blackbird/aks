@@ -853,12 +853,19 @@ footer {
 .my-float {
   margin-top:15px;
 }
-.social-icon{z-index: 9999; position: relative;}
-.social-icon > ul {padding: 0; position: fixed; left:22px; text-align: center; bottom:74px;}
-.social-icon > ul > li { margin-bottom: 0px; color:#000;}
-.social-icon > ul > li a{ display:block; height:50px; width:50px;}
-.social-icon > ul > li i{ display:block; line-height:48px;}
-.social-icon > ul > li .mdi-twitter{ background-color: #00ABF1; font-size: 18px; color:#fff; }
-.social-icon > ul > li .mdi-linkedin{ background-color: #0072b2; font-size: 18px; color:#fff;}
-.social-icon > ul > li .mdi-pinterest{ background-color: #C71C24; font-size: 18px;color:#fff;}
-.social-icon > ul > li .mdi-facebook { background-color: #3c5a98; font-size: 20px; color:#fff; border-radius: 50px;}
+
+.facebook {
+  position: fixed;
+  width:60px;
+  height:60px;
+  bottom:20px;
+  left:20px;
+  background:#3c5a98;
+  color: #ffffff;
+  border-radius:50px;
+  text-align:center;
+  font-size: 30px;
+  box-shadow: 0 0 5px rgba(0,0,0,.05), 2px 2px 5px rgba(0,0,0,.1);
+}
+.my-float {
+  margin-top:15px;

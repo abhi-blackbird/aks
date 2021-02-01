@@ -850,6 +850,23 @@ footer {
   font-size: 30px;
   box-shadow: 0 0 5px rgba(0,0,0,.05), 2px 2px 5px rgba(0,0,0,.1);
 }
-.my-float {
+.social-icon {
+  margin-top:15px;
+}
+
+.float {
+  position: fixed;
+  width:60px;
+  height:60px;
+  bottom:20px;
+  left:20px;
+  background: blue;
+  color: #ffffff;
+  border-radius:50px;
+  text-align:center;
+  font-size: 30px;
+  box-shadow: 0 0 5px rgba(0,0,0,.05), 2px 2px 5px rgba(0,0,0,.1);
+}
+.mdi-facebook {
   margin-top:15px;
 }
